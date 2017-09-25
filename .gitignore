@@ -1,8 +1,1 @@
-.vs/
-src/Hideez.ManagmentServer/bin/
-src/Hideez.ManagmentServer/obj/
-*.user
-Hideez.ManagmentServer.Test/obj/
-Hideez.ManagmentServer.Test/bin/
-src/Hideez.ManagmentServer/wwwroot/sass/
-src/Hideez.ManagmentServer/node_modules/
+ai1/out

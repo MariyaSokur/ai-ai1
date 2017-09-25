@@ -18,11 +18,9 @@ public class SimpleAgent extends Agent {
                 {5000, 0, 0}, {10000, 0, 0}};
         for (int[] time : times) {
             env.setInit_map();
-            //env.print();
             for (int it = 0; it < time[0]; it++) {
                 env.generateDirt();
 
-                //       while (env.countDirty() > 0) {
                 if (env.map[i][j] == 1) {
                     time[1] += 2;
                     suck();
@@ -30,8 +28,6 @@ public class SimpleAgent extends Agent {
                     Random random = new Random();
                     int action = random.nextInt(4);
 
-                    //count += 1;
-                    //System.out.print(action);
                     switch (action) {
                         case 0:
                             up();
